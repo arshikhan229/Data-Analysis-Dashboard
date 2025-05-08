@@ -19,22 +19,29 @@ Sales Data Analysis Dashboard/
 ├── daily_revenue_trend.png    # Auto-generated chart
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This file
+
+
 🚀 Getting Started
 1. Clone the Repository
+   
 bash
 git clone https://github.com/arshikhan229/Data-Analysis-Dashboard
 cd sales-data-analysis-dashboard
-2. Set Up a Virtual Environment
+3. Set Up a Virtual Environment
+
 bash
 python -m venv venv
 source venv/bin/activate       # On Windows: venv\Scripts\activate
-3. Install Requirements
+4. Install Requirements
+
 bash
 pip install -r requirements.txt
-4. Run the Project
+5. Run the Project
+
 bash
 python main.py
 Charts will be saved as PNG images and displayed automatically.
+
 
 📦 Requirements
 nginx
@@ -44,6 +51,7 @@ You can install them manually with:
 
 bash
 pip install pandas matplotlib
+
 🧪 Sample Data Format
 Ensure your CSV file has the following structure:
 
